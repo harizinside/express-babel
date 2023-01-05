@@ -1,0 +1,15 @@
+module.exports = {
+  presets: [
+    "@babel/preset-env"
+  ],
+  plugins: [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@routes": "./src/routes"
+        }
+      }
+    ]
+  ]
+};
