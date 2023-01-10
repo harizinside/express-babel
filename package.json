@@ -2,6 +2,9 @@
   "name": "node-babel",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "18.X"
+  },
   "scripts": {
     "dev": "babel-node ./src/bin/www.js",
     "clean": "rm -rf dist",
@@ -11,7 +14,6 @@
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "core-js": "^3.27.1",
-    "debug": "^4.3.4",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
