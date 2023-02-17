@@ -1,5 +1,6 @@
 {
-  "presets": ["@babel/preset-env"],
+  "presets": ["@babel/preset-env", "minify"],
+  "ignore": ["node_module", "public"],
   "plugins": [
     [
       "module-resolver",
